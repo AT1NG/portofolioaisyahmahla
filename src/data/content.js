@@ -5,7 +5,7 @@
 
 import profilePhoto from "../assets/profile.jpeg";
 import event1Photo from "../assets/event1.jpeg";
-import event2Photo from "../assets/event2.png";
+import event2Photo from "../assets/event2.jpeg";
 import event3Photo from "../assets/event3.jpeg";
 import event5Photo from "../assets/event5.jpeg";
 import event6Photo from "../assets/event6.jpeg";
@@ -103,11 +103,11 @@ export const gallery = [
     image: event1Photo,
   },
   {
-    id: "lautan-api-79",
-    title: "79th Commemoration of Bandung Lautan Api",
-    role: "Protocol & Logistics Coordinator",
+    id: "kinemaksi-acfest-kpk",
+    title: "KINEMAKSI X ACFEST KPK",
+    role: "PIC Finance & Accounting",
     description:
-      "Supported ceremonial logistics and guest coordination for a citywide commemorative event with 100+ guests.",
+      "Managed finance and accounting for an anti-corruption film festival held in collaboration with KPK, attended by 800+ participants.",
     image: event2Photo,
   },
   {
