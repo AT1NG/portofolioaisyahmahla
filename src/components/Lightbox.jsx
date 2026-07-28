@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { createPortal } from "react-dom";
 import { CloseIcon, ArrowIcon } from "./icons";
 
 export default function Lightbox({ item, onClose, onPrev, onNext }) {
@@ -20,7 +21,7 @@ export default function Lightbox({ item, onClose, onPrev, onNext }) {
 
   if (!item) return null;
 
-  return (
+  return createPortal(
     <div
       className="lightbox-overlay"
       role="dialog"
@@ -64,6 +65,7 @@ export default function Lightbox({ item, onClose, onPrev, onNext }) {
       >
         <ArrowIcon />
       </button>
-    </div>
+    </div>,
+    document.body
   );
 }
