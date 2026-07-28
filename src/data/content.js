@@ -3,6 +3,12 @@
 // Swap `image` URLs in `gallery` for real photos when available.
 // ---------------------------------------------------------------------------
 
+import profilePhoto from "../assets/profile.jpeg";
+import event1Photo from "../assets/event1.jpeg";
+import event3Photo from "../assets/event3.jpeg";
+import event5Photo from "../assets/event5.jpeg";
+import event6Photo from "../assets/event6.jpeg";
+
 export const profile = {
   name: "Aisyah Mahla Nurussalamah",
   title: "Event Coordination & Public Relations",
@@ -13,9 +19,8 @@ export const profile = {
   phone: "081221155052",
   // Used to build the wa.me link (Indonesian country code, no leading 0).
   whatsappNumber: "6281221155052",
-  // Profile photo shown on the Home hero. Replace with a real headshot —
-  // e.g. put the file in src/assets/ and set this to the imported path.
-  photo: "https://placehold.co/400x400/EDE7DD/8A7A63?text=Aisyah+Mahla",
+  // Profile photo shown on the Home hero.
+  photo: profilePhoto,
 };
 
 export const bio = `Communication Science graduate with a strong interest in Event Management and Public Relations. Hands-on experience coordinating 10+ official government-level events during an internship within Bandung City's governmental protocol division. Skilled in end-to-end event logistics, cross-functional coordination, and formal communication — comfortable operating in fast-paced, high-visibility environments where precision and professionalism matter.`;
@@ -94,7 +99,7 @@ export const gallery = [
     role: "Protocol & Logistics Coordinator",
     description:
       "Coordinated end-to-end protocol and logistics for the official inauguration ceremony, hosting 50+ guests.",
-    image: "https://placehold.co/900x650/EDE7DD/8A7A63?text=Inauguration+Ceremony",
+    image: event1Photo,
   },
   {
     id: "lautan-api-79",
@@ -110,7 +115,7 @@ export const gallery = [
     role: "Post Team & Location Coordinator",
     description:
       "Coordinated locations and on-ground teams for a West Java-wide culinary event with 21 participating vendors.",
-    image: "https://placehold.co/900x650/F1EAE0/9C7B4F?text=Culinary+Festival",
+    image: event3Photo,
   },
   {
     id: "qris-run",
@@ -126,7 +131,7 @@ export const gallery = [
     role: "Protocol & Logistics Support",
     description:
       "Coordinated protocol and logistics across 10+ official city-level events within Bandung City leadership.",
-    image: "https://placehold.co/900x650/EBE4D8/8A7355?text=Government+Protocol",
+    image: event5Photo,
   },
   {
     id: "hima-events",
@@ -134,6 +139,6 @@ export const gallery = [
     role: "General Treasurer",
     description:
       "Coordinated budget planning and logistics for Leadership Inauguration, MASAKU Orientation, and Dies Natalis.",
-    image: "https://placehold.co/900x650/EFE9DF/93805F?text=Campus+Events",
+    image: event6Photo,
   },
 ];
