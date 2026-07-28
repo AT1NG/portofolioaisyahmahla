@@ -492,10 +492,10 @@ p {
 .lightbox-content {
   max-width: min(880px, 92vw);
   max-height: 90vh;
+  overflow-x: hidden;
   overflow-y: auto;
   background: var(--color-surface);
   border-radius: var(--radius-md);
-  overflow: hidden;
   box-shadow: var(--shadow-lg);
 }
 

@@ -3,6 +3,11 @@
 A responsive, multi-page portfolio site for an Event Coordination & Public Relations
 professional. Built with React + Vite, React Router, and plain CSS.
 
+**Live site:** https://at1ng.github.io/portofolioaisyahmahla/
+
+Deployed automatically to GitHub Pages via GitHub Actions on every push to `main`
+(see `.github/workflows/deploy.yml`).
+
 ## Tech stack
 
 - **React 19 + Vite** — fast dev server and build tooling
