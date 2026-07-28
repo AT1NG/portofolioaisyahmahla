@@ -5,6 +5,7 @@
 
 import profilePhoto from "../assets/profile.jpeg";
 import event1Photo from "../assets/event1.jpeg";
+import event2Photo from "../assets/event2.png";
 import event3Photo from "../assets/event3.jpeg";
 import event5Photo from "../assets/event5.jpeg";
 import event6Photo from "../assets/event6.jpeg";
@@ -107,7 +108,7 @@ export const gallery = [
     role: "Protocol & Logistics Coordinator",
     description:
       "Supported ceremonial logistics and guest coordination for a citywide commemorative event with 100+ guests.",
-    image: "https://placehold.co/900x650/E6E1D8/7C6C57?text=Commemoration+Ceremony",
+    image: event2Photo,
   },
   {
     id: "qris-kuliner",
