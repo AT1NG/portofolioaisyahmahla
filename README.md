@@ -50,9 +50,12 @@ Almost everything text-based (name, tagline, bio, skills, education, experience,
 gallery captions, contact info) lives in **`src/data/content.js`**. Edit that file
 and the site updates everywhere it's referenced.
 
-To swap in real event photos, replace the `image` URLs in the `gallery` array in
-`src/data/content.js` with your own image paths (e.g. files placed in `public/` or
-`src/assets/`). Placeholder images are currently served from
+To swap in real photos, replace the placeholder URLs in `src/data/content.js`:
+- `profile.photo` — headshot shown on the Home hero
+- `gallery[].image` — each event photo on the Portfolio page
+
+Point these at your own image paths (e.g. files placed in `public/` or `src/assets/`
+and imported). Placeholder images are currently served from
 [placehold.co](https://placehold.co).
 
 ## Pages

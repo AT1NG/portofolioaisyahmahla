@@ -13,6 +13,9 @@ export const profile = {
   phone: "081221155052",
   // Used to build the wa.me link (Indonesian country code, no leading 0).
   whatsappNumber: "6281221155052",
+  // Profile photo shown on the Home hero. Replace with a real headshot —
+  // e.g. put the file in src/assets/ and set this to the imported path.
+  photo: "https://placehold.co/400x400/EDE7DD/8A7A63?text=Aisyah+Mahla",
 };
 
 export const bio = `Communication Science graduate with a strong interest in Event Management and Public Relations. Hands-on experience coordinating 10+ official government-level events during an internship within Bandung City's governmental protocol division. Skilled in end-to-end event logistics, cross-functional coordination, and formal communication — comfortable operating in fast-paced, high-visibility environments where precision and professionalism matter.`;

@@ -10,14 +10,6 @@ const NAV_ITEMS = [
   { to: "/contact", label: "Contact" },
 ];
 
-function initials(name) {
-  return name
-    .split(" ")
-    .map((part) => part[0])
-    .slice(0, 2)
-    .join("");
-}
-
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -30,7 +22,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <NavLink to="/" className="brand" aria-label={`${profile.name} — Home`}>
-          {initials(profile.name)}. {profile.name.split(" ").slice(0, 2).join(" ")}
+          {profile.name.split(" ").slice(0, 2).join(" ")}
           <span>{profile.title}</span>
         </NavLink>
 

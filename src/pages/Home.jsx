@@ -20,6 +20,9 @@ export default function Home() {
 
       <section className="hero container">
         <div className="hero-inner">
+          <div className="hero-avatar">
+            <img src={profile.photo} alt={profile.name} />
+          </div>
           <span className="eyebrow">Event Coordination &amp; Public Relations</span>
           <h1>{profile.name}</h1>
           <p className="hero-title">{profile.title}</p>
