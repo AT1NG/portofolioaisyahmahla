@@ -7,6 +7,7 @@ import profilePhoto from "../assets/profile.jpeg";
 import event1Photo from "../assets/event1.jpeg";
 import event2Photo from "../assets/event2.jpeg";
 import event3Photo from "../assets/event3.jpeg";
+import event4Photo from "../assets/event4.jpeg";
 import event5Photo from "../assets/event5.jpeg";
 import event6Photo from "../assets/event6.jpeg";
 
@@ -124,7 +125,7 @@ export const gallery = [
     role: "Liaison Officer, MC Stage",
     description:
       "Served as liaison for the MC stage, coordinating run-of-show communication for an event with 2,000+ participants.",
-    image: "https://placehold.co/900x650/E9E3D6/86694A?text=City+Run+Event",
+    image: event4Photo,
   },
   {
     id: "protocol-internship",
