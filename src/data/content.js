@@ -10,6 +10,7 @@ import event3Photo from "../assets/event3.jpeg";
 import event4Photo from "../assets/event4.jpeg";
 import event5Photo from "../assets/event5.jpeg";
 import event6Photo from "../assets/event6.jpeg";
+import event7Photo from "../assets/event7-bunda-cerdas-academy.jpeg";
 import protocolApelPhoto from "../assets/protocol-apel-honorarium.jpg";
 import protocolApelVideo from "../assets/videos/protocol-apel-honorarium.mp4";
 import protocolSharingPhoto from "../assets/protocol-sharing-session-unpad.jpg";
@@ -150,6 +151,14 @@ export const gallery = [
     description:
       "Coordinated budget planning and logistics for Leadership Inauguration, MASAKU Orientation, and Dies Natalis.",
     image: event6Photo,
+  },
+  {
+    id: "usher-bunda-cerdas-academy",
+    title: "Usher — Bunda Cerdas Academy With Bye Bye Fever",
+    role: "Usher",
+    description:
+      "Welcomed and guided 200+ attendees to event areas in August 2026, provided clear information about the event schedule, booth locations, and facilities, and ensured entrance, seating, and emergency exits remained orderly throughout the event.",
+    image: event7Photo,
   },
 ];
 
