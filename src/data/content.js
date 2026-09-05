@@ -27,9 +27,9 @@ export const profile = {
     "Delivering seamless, high-impact events through meticulous planning, cross-functional coordination, and confident public relations.",
   location: "Bandung, West Java",
   email: "aisyahmahla29@gmail.com",
-  phone: "081221155052",
+  phone: "085175440729",
   // Used to build the wa.me link (Indonesian country code, no leading 0).
-  whatsappNumber: "6281221155052",
+  whatsappNumber: "6285175440729",
   // Profile photo shown on the Home hero.
   photo: profilePhoto,
 };
