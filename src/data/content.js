@@ -10,6 +10,12 @@ import event3Photo from "../assets/event3.jpeg";
 import event4Photo from "../assets/event4.jpeg";
 import event5Photo from "../assets/event5.jpeg";
 import event6Photo from "../assets/event6.jpeg";
+import protocolApelPhoto from "../assets/protocol-apel-honorarium.jpg";
+import protocolApelVideo from "../assets/videos/protocol-apel-honorarium.mp4";
+import protocolSharingPhoto from "../assets/protocol-sharing-session-unpad.jpg";
+import protocolSharingVideo from "../assets/videos/protocol-sharing-session-unpad.mp4";
+import protocolSertijabPhoto from "../assets/protocol-sertijab-tp-pkk.jpg";
+import protocolSertijabVideo from "../assets/videos/protocol-sertijab-tp-pkk.mp4";
 
 export const profile = {
   name: "Aisyah Mahla Nurussalamah",
@@ -142,5 +148,36 @@ export const gallery = [
     description:
       "Coordinated budget planning and logistics for Leadership Inauguration, MASAKU Orientation, and Dies Natalis.",
     image: event6Photo,
+  },
+];
+
+// Video content, shown on the separate Content page.
+export const contentPosts = [
+  {
+    id: "protocol-apel-honorarium",
+    title: "Morning Assembly & Honorarium Handover for Educators",
+    role: "Protocol & Logistics Support",
+    description:
+      "Supported the morning assembly (apel pagi) ceremony marking the honorarium handover for educators across Bandung City.",
+    image: protocolApelPhoto,
+    video: protocolApelVideo,
+  },
+  {
+    id: "protocol-sharing-session-unpad",
+    title: "Sharing Session with Universitas Padjadjaran's Student Protocol Corps",
+    role: "Protocol & Logistics Support",
+    description:
+      "Joined a sharing session with Universitas Padjadjaran's student protocol corps on MC hosting and protocol practices.",
+    image: protocolSharingPhoto,
+    video: protocolSharingVideo,
+  },
+  {
+    id: "protocol-sertijab-tp-pkk",
+    title: "Handover Ceremony & Inauguration of TP PKK Bandung City",
+    role: "Protocol & Logistics Support",
+    description:
+      "Supported the handover ceremony and inauguration of the TP PKK, Dekranasda, and TP Posyandu leadership of Bandung City.",
+    image: protocolSertijabPhoto,
+    video: protocolSertijabVideo,
   },
 ];

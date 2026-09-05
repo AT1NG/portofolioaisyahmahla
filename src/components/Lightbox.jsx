@@ -46,7 +46,18 @@ export default function Lightbox({ item, onClose, onPrev, onNext }) {
       </button>
 
       <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-        <img src={item.image} alt={item.title} />
+        {item.video ? (
+          <video
+            className="lightbox-video"
+            src={item.video}
+            poster={item.image}
+            controls
+            playsInline
+            autoPlay
+          />
+        ) : (
+          <img src={item.image} alt={item.title} />
+        )}
         <div className="lightbox-caption">
           <h3>{item.title}</h3>
           <p className="lightbox-role">{item.role}</p>

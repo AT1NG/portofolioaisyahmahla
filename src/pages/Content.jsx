@@ -28,6 +28,7 @@ export default function Content() {
         <p className="lede" style={{ margin: "0 auto" }}>
           Video moments from events and protocol activities. Click any clip to watch.
         </p>
+        <p className="content-credit">Shot and edited by Aisyah herself.</p>
       </section>
 
       <section className="section">

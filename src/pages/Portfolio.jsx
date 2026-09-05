@@ -2,8 +2,9 @@ import { useState } from "react";
 import Seo from "../components/Seo";
 import Reveal from "../components/Reveal";
 import Lightbox from "../components/Lightbox";
+import { PlayIcon } from "../components/icons";
 import { gallery } from "../data/content";
-import "./Portfolio.css";
+import "./Gallery.css";
 
 export default function Portfolio() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -42,6 +43,11 @@ export default function Portfolio() {
                 >
                   <div className="gallery-thumb">
                     <img src={item.image} alt={item.title} loading="lazy" />
+                    {item.video && (
+                      <span className="gallery-play-badge" aria-hidden="true">
+                        <PlayIcon width={20} height={20} />
+                      </span>
+                    )}
                   </div>
                   <div className="gallery-caption">
                     <h3>{item.title}</h3>
