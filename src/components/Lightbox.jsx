@@ -46,7 +46,17 @@ export default function Lightbox({ item, onClose, onPrev, onNext }) {
       </button>
 
       <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-        {item.video ? (
+        {item.youtubeId ? (
+          <div className="lightbox-youtube-wrap">
+            <iframe
+              className="lightbox-youtube"
+              src={`https://www.youtube-nocookie.com/embed/${item.youtubeId}?autoplay=1&rel=0`}
+              title={item.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        ) : item.video ? (
           <video
             className="lightbox-video"
             src={item.video}

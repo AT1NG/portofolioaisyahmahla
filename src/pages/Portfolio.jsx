@@ -43,7 +43,7 @@ export default function Portfolio() {
                 >
                   <div className="gallery-thumb">
                     <img src={item.image} alt={item.title} loading="lazy" />
-                    {item.video && (
+                    {(item.video || item.youtubeId) && (
                       <span className="gallery-play-badge" aria-hidden="true">
                         <PlayIcon width={20} height={20} />
                       </span>
