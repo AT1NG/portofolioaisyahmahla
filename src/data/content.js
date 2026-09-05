@@ -16,6 +16,8 @@ import protocolSharingPhoto from "../assets/protocol-sharing-session-unpad.jpg";
 import protocolSharingVideo from "../assets/videos/protocol-sharing-session-unpad.mp4";
 import protocolSertijabPhoto from "../assets/protocol-sertijab-tp-pkk.jpg";
 import protocolSertijabVideo from "../assets/videos/protocol-sertijab-tp-pkk.mp4";
+import mufinBrowniesPhoto from "../assets/film-mufin-brownies.jpg";
+import besokKiamatPhoto from "../assets/film-besok-kiamat.jpg";
 
 export const profile = {
   name: "Aisyah Mahla Nurussalamah",
@@ -179,5 +181,21 @@ export const contentPosts = [
       "Supported the handover ceremony and inauguration of the TP PKK, Dekranasda, and TP Posyandu leadership of Bandung City.",
     image: protocolSertijabPhoto,
     video: protocolSertijabVideo,
+  },
+  {
+    id: "film-mufin-brownies",
+    title: "MUFIN BROWNIES",
+    role: "Cast",
+    description: "Short film by Ilmu Komunikasi UM Bandung.",
+    image: mufinBrowniesPhoto,
+    youtubeId: "mYTcp0wvFjE",
+  },
+  {
+    id: "film-besok-kiamat",
+    title: "BESOK KIAMAT",
+    role: "Wardrobe",
+    description: "Short film by Ilmu Komunikasi UM Bandung.",
+    image: besokKiamatPhoto,
+    youtubeId: "yiVOkG9ZLoA",
   },
 ];
